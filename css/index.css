@@ -1,28 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 html{
     scroll-behavior: smooth;
-
 }
 
-section{
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../assets/lana\ banner.jpg");
+#inicio{
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../assets/images.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
-section header{
-    background-color: rgba(0,0,0, .8);
+#inicio .contenido header{
+    background-color: rgba(0, 0, 0, .8);
     position: fixed;
     width: 100%;
     z-index: 100;
-    top: 0%;
+    top: 0;
 }
 
-section header div{
+#inicio .contenido header .contenido-header{
     max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: rgb(236, 232, 225)   
+}
+
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: #faebd7;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
 }
