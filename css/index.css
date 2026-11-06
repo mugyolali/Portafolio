@@ -12,7 +12,7 @@ html{
 }
 
 #inicio{
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../assets/images.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../assets/bannerbuenakalidad.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -52,4 +52,69 @@ html{
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover {
+    color: aqua;
+}
+
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2 span {
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span {
+    font-size: 25px;
+    color: aqua;
+}
+
+#inicio .contenido .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: blueviolet;
+}
+
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 10px;
 }
